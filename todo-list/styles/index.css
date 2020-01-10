@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  height: 100vh;
+  color: black;
+	background-color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+	padding: 100px;
+}
+
+h1{
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+}
+
+.todo-list{
+	border: 1px solid black;
+}
+
+li{
+	max-width: 100px;
+}

@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    
+    }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.title{
+    text-align: center;
+    margin-top: 7rem;
+    
+}
+body{
+    background-color: cornflowerblue;
+}
+.rules{
+    width: 60vw;
+    margin: 0.5rem;
+}
+.input-player{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+.contenedor{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: auto;
+    display: none;
+    
+}
+.letra{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color:white;
+    margin: .5em;
+    border-radius: 50%;
+}
+.answer{
+  margin: 2.5rem;
+  padding: 10px;
+  display: none;
+}
+.cont-questions{
+    height: 5rem;
+    width: 20rem;
+    margin: 2.5rem;
+    padding: 0.8rem;
+    background-color: white;
+    display: none;
+    
+}
+.ranking{
+    display: none;
+}
+.points-table{
+    display: none;
+}
+
+
+.ok{
+    background-color: green;
+}

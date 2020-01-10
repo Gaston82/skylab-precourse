@@ -1,0 +1,40 @@
+.title{
+    text-align: center;
+}
+body{
+    background-color: cornflowerblue;
+}
+.contenedor{
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: auto;
+    
+}
+.letra{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color:white;
+    margin: .5em;
+    border-radius: 50%;
+}
+.answer{
+  padding: 10px;
+}
+.cont-questions{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+
+.a{
+    color: red
+}
+
+.ok{
+    background-color: green;
+}

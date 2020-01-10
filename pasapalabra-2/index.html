@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pasapalabra Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Contenedor principal-->
+        <div class="container">
+            <h1 class="title">PASAPALABRA GAME</h1>
+            <!--Contenedor para las reglas del juego-->
+            <div class="rules">
+                <p>
+                    Bienvenidos al juego de Pasapalabra.
+                    Cada letra del abecedario contiene una pregunta de diversas tematicas.
+                    Puedes responder o dejar esa pregunta para la siguiente ronda ingresando la frase "pasapalabra".
+                    Cada respuesta correcta sumará un punto y las incorrectas restará otro punto.
+                    Tienes un minuto para completar el desafio.
+                    Suerte!
+        
+                </p>
+                <div class="input-player">
+                    <input type="text" name="player" value="">
+                    <button id="submitUser">jugar</button>
+                </div>
+               
+
+
+            </div>
+           
+
+<!--Contenedor donde apareceran las preguntas-->
+            <div class="cont-questions">
+                
+
+            </div>
+
+<!--Contenedor para las letras-->
+            <div class="contenedor">
+                <div class="letra">A</div>
+                <div class="letra">B</div>
+                <div class="letra">C</div>
+                <div class="letra">D</div>
+                <div class="letra">E</div>
+                <div class="letra">F</div>
+                <div class="letra">G</div>
+                <div class="letra">H</div>
+                <div class="letra">I</div>
+                <div class="letra">J</div>
+                <div class="letra">K</div>
+                <div class="letra">L</div>
+                <div class="letra">M</div>
+                <div class="letra">N</div>
+                <div class="letra">O</div>
+                <div class="letra">P</div>
+                <div class="letra">Q</div>
+                <div class="letra">R</div>
+                <div class="letra">S</div>
+                <div class="letra">T</div>
+                <div class="letra">U</div>
+                <div class="letra">V</div>
+                <div class="letra">W</div>
+                <div class="letra">X</div>
+                <div class="letra">Y</div>
+                <div class="letra">Z</div>
+
+                
+            </div>
+            <!--Contenedor para las respuestas-->
+            <div class="answer">
+                <label for="">INGRESA TU RESPUESTA</label>
+                <input type="text" name="palabra" value="">
+                <button id="responder" onclick="nextQuestion()">responder</button>
+                <button id="end" onclick="endGame()">END</button>
+            </div>
+
+            <div class="ranking"></div>
+             <table class="points-table">
+                <tr>
+                    <th>name</th>
+                    <th>points</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+             </table>
+
+
+
+        </div>
+        
+        
+        
+       
+        
+        <script src="index.js"></script>
+    </body>
+    </html>
